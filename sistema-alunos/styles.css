@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(177, 127, 224);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(169, 39, 255);
+    height: 130px;
+    font-size: 30px;
+    align-items: center;
+}
+
+header > img{
+    height: 130px;
+    width: 150px;
+}
+
+header > nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+
+header > nav a{
+    color: black;
+}
+
+header nav > a:link{
+    text-decoration: none;
+
+}
+
+header nav > a:hover{
+    font-size: 35px;
+
+}
+
+.main{
+    display: flex;
+    height: 500px;
+}
+
+.main > section{
+    background-color: rgb(105, 80, 129);
+    flex: 4;
+    text-align: center;
+}
+
+.main > aside{
+    background-color: rgb(154, 131, 177);
+    flex: 1;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(65, 4, 122);
+    height: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+input[type=text]{
+    width: 150px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{type=number}
